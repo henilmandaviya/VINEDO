@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.lable {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image1 {
+    width: 244px;
+    padding: 15px;
+    object-fit: cover;
+}
+
+.main1 {
+    width: 100%;
+    height: 700px;
+    background-image: url(/assets/images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text1 {
+    /* max-width: 586px; */
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 66px;
+    letter-spacing: 0px;
+    color: white;
+    margin: 15px 0 32px 0;
+}
+
+.para1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Arimo", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    margin: 15px 0 32px 0;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    background-color: #ae8d69;
+    color: white;
+    font-family: "Arimo", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 14.7px;
+    letter-spacing: 0.6px;
+    border-radius: 10px;
+    padding: 25px;
+    padding: 17px 42px;
+    border: none;
+    transition: all 0.5s;
+    /* margin: 50px 252px; */
+}
+
+.btn1:hover {
+    background-color: bisque;
+    color: #ae8d69;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.main2 {
+    width: 100%;
+    height: auto;
+}
+
+.text2 {
+    color: #1E1D24;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 40.3px;
+    text-align: center;
+    padding: 38px 0 22px 0;
+}
+
+.para2 {
+    text-align: center;
+    color: #999999;
+    font-family: "Arimo", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    letter-spacing: 0px;
+    padding: 25px 10px 26px 10px;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box2 {
+    width: 320px;
+    margin: 27px;
+    height: 400px;
+    background-image: url(/assets/images/2.jpg);
+    background-size: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    color: white;
+
+}
+
+.box2:hover {
+    background-position-x: -36px;
+}
+
+.text3 {
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 57.6px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 152px 0 0 0;
+
+}
+
+.text4 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 15px 0 0 0;
+
+}
+
+.box3 {
+    width: 320px;
+    margin: 27px;
+    height: 400px;
+    background-image: url(/assets/images/3.jpg);
+    background-size: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    color: white;
+
+}
+
+.box3:hover {
+    background-position-x: -36px;
+}
+
+.box4 {
+    width: 320px;
+    margin: 27px;
+    height: 400px;
+    background-image: url(/assets/images/4.jpg);
+    background-size: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    color: white;
+
+}
+
+.box4:hover {
+    background-position-x: -36px;
+}
+
+.main3 {
+    width: 100%;
+    height: auto;
+}
+
+.text5 {
+    color: #1E1D24;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 25px;
+    line-height: 40.3px;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box5 {
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url(/assets/images/batlo.png);
+    background-repeat: no-repeat;
+    transition: all;
+    transition-duration: 0.25s;
+    box-shadow: 0px 0px 20px #dad7d7;
+    transition-delay: 0.25s;
+}
+
+.box5:hover {
+    background-image: url(/assets/images/batlo2.png);
+    background-position-x: 45%;
+}
+
+/* .batlo {
+    width: 240px;
+    height: 240px
+} */
+
+.text6 {
+    font-family: "Arimo", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.2px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #5A4C41;
+    margin: 304px 0 10px 0;
+}
+
+.text7 {
+    font-family: "Arimo", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    letter-spacing: 0px;
+    color: #999999;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.box6 {
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url(/assets/images/batlo3.png);
+    background-repeat: no-repeat;
+    transition: all;
+    transition-duration: 0.25s;
+    box-shadow: 0px 0px 20px #dad7d7;
+    transition-delay: 0.25s;
+}
+
+.box6:hover {
+    background-image: url(/assets/images/batlo4.png);
+    background-position-x: 45%;
+}
+
+.box7 {
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url(/assets/images/batlo5.png);
+    background-repeat: no-repeat;
+    transition: all;
+    transition-duration: 0.25s;
+    box-shadow: 0px 0px 20px #dad7d7;
+    transition-delay: 0.25s;
+}
+
+.box7:hover {
+    background-image: url(/assets/images/batlo6.png);
+    background-position-x: 45%;
+}
+
+.box8 {
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url(/assets/images/batlo7.png);
+    background-repeat: no-repeat;
+    transition: all;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px #dad7d7;
+    transition-delay: 0.25s;
+}
+
+.box8:hover {
+    background-image: url(/assets/images/batlo8.png);
+    background-position-x: 45%;
+}
+
+.box9 {
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url(/assets/images/batlo9.png);
+    background-repeat: no-repeat;
+    transition: all;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px #dad7d7;
+    transition-delay: 0.25s;
+}
+
+.box9:hover {
+    background-image: url(/assets/images/batlo10.png);
+    background-position-x: 45%;
+}
+
+.box10 {
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url(/assets/images/batlo11.png);
+    background-repeat: no-repeat;
+    transition: all;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px #dad7d7;
+    transition-delay: 0.25s;
+}
+
+.box10:hover {
+    background-image: url(/assets/images/batlo12.png);
+    background-position-x: 45%;
+}
+
+.box11 {
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url(/assets/images/batlo13.png);
+    background-repeat: no-repeat;
+    transition: all;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px #dad7d7;
+    transition-delay: 0.25s;
+}
+
+.box11:hover {
+    background-image: url(/assets/images/batlo14.png);
+    background-position-x: 45%;
+}
+
+.box12 {
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url(/assets/images/batlo15.png);
+    background-repeat: no-repeat;
+    transition: all;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px #dad7d7;
+    transition-delay: 0.25s;
+}
+
+.box12:hover {
+    background-image: url(/assets/images/batlo16.png);
+    background-position-x: 45%;
+}
+
+.main4 {
+    width: 100%;
+    height: auto;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 21px;
+}
+
+.box13 {
+    width: 320px;
+    height: 450px;
+    margin: 19px;
+    background-image: url(/assets/images/5.jpg);
+    background-position: center;
+    transition: all 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.5s;
+}
+
+.box13:hover {
+    filter: brightness(0.8);
+}
+
+.image15 {
+    width: 320px;
+    height: 215px;
+    margin: 19px;
+    background-image: url(/assets/images/6.jpg);
+    background-position: center;
+    transition: all 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image15:hover {
+    filter: brightness(0.8);
+}
+
+.image16 {
+    width: 320px;
+    height: 215px;
+    margin: 19px;
+    background-image: url(/assets/images/7.jpg);
+    background-position: center;
+    transition: all 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image16 :hover {
+    filter: brightness(0.8);
+}
+
+.box15 {
+    width: 320px;
+    height: 450px;
+    margin: 19px;
+    background-image: url(/assets/images/8.jpg);
+    background-position: center;
+    transition: all 0.5s;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box15:hover {
+    filter: brightness(0.8);
+}
+
+.main5 {
+    width: 100%;
+    height: auto;
+}
+
+.box16 {
+    width: 280px;
+    height: 450px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-image: url(/assets/images/batlo17.png);
+    background-repeat: no-repeat;
+    background-size: 275px;
+    transition: all;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px #dad7d7;
+    transition-delay: 0.25s;
+}
+
+.box16:hover {
+    background-image: url(/assets/images/batlo18.png);
+    background-position-x: 45%;
+}
+
+.main6 {
+    width: 100%;
+    height: 700px;
+    background-image: url(/assets/images/9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main7 {
+    width: 100%;
+    height: auto;
+}
+
+.div7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box17 {
+    width: 320px;
+    height: 448px;
+    margin: 15px;
+    background-color: #ffffff;
+}
+
+.image4 {
+    width: 320px;
+    height: 238px;
+    object-fit: cover;
+}
+
+.text8 {
+    font-family: "Arimo", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.9px;
+    margin: 25px 0px 0px 0px;
+}
+
+.text9 {
+    color: #999999;
+    font-family: "Arimo", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.4px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 15px 0 0 0;
+}
+
+.para3 {
+    color: #999999;
+    font-family: "Arimo", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 15px 0 0 0;
+}
+
+.main8 {
+    width: 100%;
+    height: auto;
+}
+
+.div8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.email {
+    width: 350px;
+    height: 33px;
+}
+
+.submit {
+    padding: 9px 21px 9px 21px;
+
+}
